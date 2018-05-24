@@ -30,7 +30,7 @@ dispatch(editComment('nowy tekst komentarza!', id));
 function removeComment(id) {
     return {
         type: REMOVE_COMMENT,
-        id: 2121     //przykladowe id
+        id
     }
 }
 dispatch(removeComment(id));
@@ -38,7 +38,7 @@ dispatch(removeComment(id));
 function thumbUpComment(id) {
     return {
         type: THUMB_UP_COMMENT,
-        id: 2112
+        id
     }
 }
 dispatch(thumbUpComment(id));
@@ -46,7 +46,7 @@ dispatch(thumbUpComment(id));
 function thumbDownComment(id) {
     return {
         type: THUMB_DOWN_COMMENT,
-        id: 1234
+        id
     }
 }
 dispatch(thumbDownComment(id));
